@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Hosting en Azure</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel='icon' href='img/icon.png'>
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Nuestro Equipo</h1>
+        </div>
+        <div class="tabs">
+            <button class="tab-button" onclick="openTab(event, 'Camilo')">Camilo Gonzalez</button>
+            <button class="tab-button" onclick="openTab(event, 'Juan')">Juan Jose Osorio</button>
+            <button class="tab-button" onclick="openTab(event, 'Sebastian')">Sebastian Navia</button>
+        </div>
+
+        <div id="Camilo" class="tab tab-content">
+            <img src="img/camilo.png" alt="Camilo Gonzalez">
+            <h2>Camilo Gonzalez</h2>
+            <p>Ingeniero Telemático</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat mi nec sollicitudin gravida.</p>
+        </div>
+
+        <div id="Juan" class="tab tab-content">
+            <img src="juan.jpg" alt="Juan Jose Osorio">
+            <h2>Juan Jose Osorio</h2>
+            <p>Ingeniero de Sistemas</p>
+            <p>Nulla facilisi. Phasellus accumsan purus ut libero aliquam eleifend. Integer vel ante eu nulla lacinia consectetur.</p>
+        </div>
+
+        <div id="Sebastian" class="tab tab-content">
+            <img src="img/sebastian.png" alt="Sebastian Navia">
+            <h2>Sebastian Navia</h2>
+            <p>Ingeniero Telemático</p>
+            <p>Sed interdum, sem nec aliquet finibus, magna mi dictum magna, non convallis diam dui nec justo.</p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

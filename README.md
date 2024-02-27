@@ -1,6 +1,8 @@
 # <b> _**Patrón Static Content Hosting**_ </b>
 
-    This pattern is based on deploying static content in a cloud-based storage service that can deliver it directly to the customer. This can reduce the need for potentially costly process instances.
+    This pattern is based on deploying static content in a cloud-based storage service that 
+    can deliver it directly to the customer. This can reduce the need for potentially costly 
+    process instances.
    
 
 ## <b> _Documentation_ </b> 📄
